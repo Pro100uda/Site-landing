@@ -1,0 +1,86 @@
+.client__title{
+  box-sizing: border-box;
+margin-top: 110px;
+  text-align: center;
+}
+.client__title__about{
+  font-family: "Peace Sans";
+  font-size: 61.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #494949
+}
+.client__text{
+  position: absolute;
+  display: flex;
+  margin-top: 140px;
+  margin-left: 600px;
+}
+.text__client{
+  margin-left: 15px;
+  text-align: left;
+  width: 650px;
+  height: 60px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: italic;
+  color: #6a6a6a;
+}
+.clientinfo{
+  height: 740px;
+}
+.bracket{
+  margin-top: -125px ;
+  font-family: "Pump Let Plain";
+  font-size: 199.1px;
+  line-height: 331px;
+  font-weight: 600;
+  color: #6a6a6a;
+}
+.img_righttriangle{
+  position: absolute;
+  z-index: 1;
+  margin-top: -227px;
+  margin-left: 1286px;
+}
+.clientimage{
+  position: absolute;
+  z-index: 1;
+  margin-top: -185px;
+  margin-left: -475px;
+}
+.text__authors{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #6a6a6a;
+  position: absolute;
+  z-index: 1;
+  margin-top: 143px;
+  margin-left: 140px;
+}
+.img_triangle{
+  position: absolute;
+  z-index: -1;
+  margin-top: -227px;
+}
+.lastclientsimage{
+  position: absolute;
+  z-index: 1;
+  margin-top: 230px;
+  margin-left: 100px;
+}
+.lastclientsimage2{
+  position: absolute;
+  z-index: 1;
+  margin-top: 235px;
+  margin-left: 190px;
+}
+.lastclientsimage3{
+  position: absolute;
+  z-index: 1;
+  margin-top: 235px;
+  margin-left: 280px;
+}

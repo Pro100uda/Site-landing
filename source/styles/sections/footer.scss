@@ -1,0 +1,68 @@
+.footer__background{
+  box-sizing: border-box;
+  padding: 85px;
+  height: 570px;
+  background-image: url("../../images/backgroundfooter.png");
+  filter: brightness(60%);
+  color: white;
+  margin-top: -90px;
+}
+.title__footer{
+  text-align: center;
+}
+.title__footer__about{
+  font-size: 61.9px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.icons__footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.title__icons{
+  margin-left: 80px;
+}
+.text__footer{
+  margin-left: 80px;
+  text-align: left;
+}
+.footerimg{
+  position: absolute;
+  float: left;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.footer__footer{
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.footerimage{
+  position: relative;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.footer--line{
+  margin: auto;
+  width: 740px;
+  text-align: center;
+}
+.text__footer__bottom{
+  margin-top: 25px;
+  text-align: center;
+  font-family: "TimesNewPSMT";
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.top__triangle{
+  position: absolute;
+  margin-top: -20px;
+  z-index: 1;
+}
+.bottom_triangle{
+  position: absolute;
+  z-index: 1;
+  margin-top: 396px;
+  margin-left: 1291px;
+}

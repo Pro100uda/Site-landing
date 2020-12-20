@@ -1,0 +1,147 @@
+.howwework{
+  box-sizing: border-box;
+  padding: 120px;
+  height: 730px;
+}
+.container__howwework{
+  margin-left: 50px;
+}
+.scroller1{
+  z-index: 1;
+  position: absolute;
+  margin-top: -410px;
+  margin-left: 420px;
+  transform: skew(-20deg);
+  background-image: url("../../images/backgroundparallelogramm.jpg");
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  box-shadow: -4px 11px 40px 0px rgba(0,0,0,0.21);
+}
+.title__scroller{
+  color: white;
+  font-size: 37px;
+  top: 90px;
+  font-family: Lato, sans-serif;
+  position: absolute;
+  text-transform: uppercase;
+  left: 10px;
+  width: 100%;
+}
+.number{
+  z-index: -2;
+  position: absolute;
+  color: white;
+  left: 250px;
+  font-family: Lato;
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.text__scroller{
+  font-family: "Open Sans";
+  position: relative;
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  left: 10px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  top: 140px;
+}
+.title__scroller2{
+  color: white;
+  font-size: 37px;
+  top: 200px;
+  font-family: Lato, sans-serif;
+  position: absolute;
+  text-transform: uppercase;
+  left: 20px;
+  width: 100%;
+}
+.scroller2{
+  z-index: 1;
+  position: absolute;
+  margin-top: -410px;
+  margin-left: 770px;
+  transform: skew(-20deg);
+  background-image: url("../../images/backgroundparallelogramm2.jpg");
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  box-shadow: -4px 11px 40px 0px rgba(0,0,0,0.21);
+}
+.scroller3{
+  z-index: 1;
+  position: absolute;
+  margin-top: -410px;
+  margin-left: 1105px;
+  transform: skew(-20deg);
+  background-image: url("../../images/backgroundparallelogramm3.jpg");
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  box-shadow: -4px 11px 40px 0px rgba(0,0,0,0.21);
+}
+.title__scroller3{
+  color: white;
+  font-size: 37px;
+  top: 200px;
+  font-family: Lato, sans-serif;
+  position: absolute;
+  text-transform: uppercase;
+  left: 20px;
+  width: 100%;
+}
+.title__howwework{
+  font-family: "Peace Sans";
+  font-size: 60px;
+  font-weight: 400;
+  color:#494949;
+  margin-bottom: 75px;
+}
+.text__howwework{
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  padding: 5px;
+}
+.button__howwework{
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-bottom: 110px;
+  text-align: left;
+  width: 130px;
+  height: 50px;
+}
+.button__btn3{
+font-family: "Lato";
+  font-size: 21px;
+  font-weight: bold;
+  background: #bc2e3a;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #bc2e3a;
+  border-radius: 50px;
+  padding: 15px;
+
+  &:hover{
+    background: white;
+    color: black;
+    border: #bc2e3a;
+  }
+}
+.triangle__left__botom{
+  z-index: 1;
+  position: absolute;
+  margin-top: -195px;
+  margin-left: -116px;
+}
+.triangle__right__center{
+  z-index: -1;
+  position: absolute;
+  margin-top: -707px;
+  margin-left: 904px;
+
+}

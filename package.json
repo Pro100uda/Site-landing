@@ -1,0 +1,25 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "layout of the site depending on the selected option",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/Pro100uda/Site-landing.git",
+  "author": "Pro100uda",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp.spritesmith": "^6.11.0",
+    "rimraf": "^2.7.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp-sass": "^4.1.0",
+    "normalize.scss": "^0.1.0"
+  }
+}

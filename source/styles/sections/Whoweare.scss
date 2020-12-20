@@ -1,0 +1,65 @@
+.container__info{
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+  z-index: -2;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.trianglepc{
+  z-index: -1;
+  position: absolute;
+  margin-top: 70px;
+  left: 780px;
+}
+.container__text{
+  height: 530px;
+  background: #fff;
+}
+.title__info{
+  font-family: "Peace Sans";
+  color: #494949;
+  font-size: 65px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.oleg__info{
+  font-size: 14px;
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  margin-top: 75px;
+  line-height: 0.5;
+}
+.text__column{
+  margin: 20px;
+  text-align: left;
+}
+.button__info {
+  margin-top: 80px;
+  margin-bottom: 110px;
+  text-align: left;
+}
+.button__btn2{
+  font-family: "Lato Bold";
+  font-weight: bold;
+  background: #bc2e3a;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #bc2e3a;
+  border-radius: 50px;
+  padding: 15px;
+
+  &:hover{
+    background: white;
+    color: black;
+    border: #bc2e3a;
+  }
+}
+.container__triangle{
+  margin-top: -75px;
+  z-index: -2;
+  position: absolute;
+  left: 511px;
+}
+

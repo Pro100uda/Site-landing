@@ -1,0 +1,15 @@
+header.header
+    .header__img
+        .container
+            .container__header
+                .header__inner
+                    .header__logo Agency
+                nav.navigation
+                    -var items = ['HOME', 'ABOUT US', 'TEAM', 'SERVICES', 'PROGRESS', 'CLIENTS', 'WORK'];
+                        each item in items
+                            a.nav__link(href="#")= item
+                    i.font.fa.fa-search(aria-hidden="true")
+                    i.font.fa.fa-facebook(aria-hidden="true")
+        .container
+            .header__button
+                a.header__btn(href="#") READ MORE
